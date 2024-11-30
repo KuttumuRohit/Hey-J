@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Serverdown() {
+function ServerDown() {
   return (
     <section className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <div className="max-w-4xl p-8 bg-white rounded-lg shadow-lg text-center">
@@ -24,5 +24,5 @@ function Serverdown() {
   );
 }
 
-export default Serverdown;
+export default ServerDown;
 
