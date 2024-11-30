@@ -16,12 +16,12 @@ function App() {
         <Header />
         <main className="mt-20">
           <Routes>
-            <Route path="/" element={<Home />} />
+{/*             <Route path="/" element={<Home />} /> */}
             <Route path="/about" element={<About />} />
             <Route path="/features" element={<Features />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/chatbot" element={<ChatBot />} /> {/* ChatBot route */}
-            <Route path="/serverdown" element={<Serverdown />} />
+            <Route path="/" element={<Serverdown />} />
 
           </Routes>
         </main>
