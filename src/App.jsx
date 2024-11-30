@@ -7,7 +7,7 @@ import Features from './components/Features';
 import Contact from './components/Contact';
 import ChatBot from './components/ChatBot';
 import Footer from './components/Footer';
-import ServerDown from './components/Serverdown.jsx';
+import ServerDown from './components/ServerDown.jsx';
 
 function App() {
   return (
