@@ -7,7 +7,7 @@ import Features from './components/Features';
 import Contact from './components/Contact';
 import ChatBot from './components/ChatBot';
 import Footer from './components/Footer';
-import Serverdown from './components/Serverdown.jsx';
+import ServerDown from './components/Serverdown.jsx';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
             <Route path="/features" element={<Features />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/chatbot" element={<ChatBot />} /> {/* ChatBot route */}
-            <Route path="/" element={<Serverdown />} />
+            <Route path="/" element={<ServerDown />} />
 
           </Routes>
         </main>
